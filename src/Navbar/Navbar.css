@@ -1,0 +1,63 @@
+.navbar_main{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    min-height: 70px;
+    width: 95%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-top: 35px;
+    
+
+    
+}
+.nav_logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    
+    padding-right: none;
+    height: 90px;
+    width: 110px;
+    cursor: pointer;
+}
+.nav_logo h3{
+    padding-top: 30px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+.nav_list{
+    display: flex;
+    gap: 7rem;
+    padding-top: 30px;
+    
+}
+.nav_list a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 100;
+}
+.sign_button{
+   padding-top: 22px;
+   padding-right: 35px;   
+}
+.sign_button button{
+    outline: none;
+    border: none;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 22px;
+    font-size: 20px;
+   
+}
+.sign_button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
